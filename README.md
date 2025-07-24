@@ -73,7 +73,7 @@ Follow these steps to set up your `new-project` repository:
     git push -u origin master
     ```
     
-## Push ***development*** branch to GitHub and megre via pull request
+## Push ***development*** branch to GitHub and merge via pull request
 17. **Push** the `development` branch to the remote repository and set its upstream:
 
     ```bash
