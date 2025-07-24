@@ -27,12 +27,12 @@ Follow these steps to set up your `new-project` repository:
 7. **Add** the remote repository URL:
 
    ```bash
-   git remote add origin https://github.com/<user_name>/new-project.git
+   git remote add origin https://github.com/<username>/new-project.git
    ```
 8. **Push** the `main` branch to the remote repository:
 
    ```bash
-   git push -u origin main
+   git push -u origin master
    ```
 9. **Create** a new branch named `development` and **switch** to it:
 
@@ -53,7 +53,7 @@ Follow these steps to set up your `new-project` repository:
 13. **Merge** the changes from `development` into `main`:
 
     ```bash
-    git checkout main
+    git checkout master
     git merge development
     ```
 14. **Check** the status to ensure everything is up to date:
@@ -65,5 +65,10 @@ Follow these steps to set up your `new-project` repository:
 
     ```bash
     git add .
-    git commit -m "chore: finalize setup"
+    git commit -m "PROM-42164 #comment Added development instructions #time 1h"
+    ```
+16. **Push** the `master` branch to the remote repository and set the upstream:
+
+    ```bash
+    git push -u origin master
     ```
