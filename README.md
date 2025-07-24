@@ -72,3 +72,24 @@ Follow these steps to set up your `new-project` repository:
     ```bash
     git push -u origin master
     ```
+    
+## Push ***development*** branch to GitHub and megre via pull request
+17. **Push** the `development` branch to the remote repository and set its upstream:
+
+    ```bash
+    git push -u origin development
+    ```
+
+18. **Open a pull request** on GitHub:
+
+    * Navigate to your repository on GitHub.
+    * Click **Compare & pull request** for the `development` branch.
+    * Review your changes, enter a title and description, then click **Create pull request**.
+    * After approval, click **Merge pull request** and then **Confirm merge**.
+
+19. **Fetch and update your local `main` branch:**
+
+    ```bash
+    git checkout main
+    git pull origin main
+    ```
